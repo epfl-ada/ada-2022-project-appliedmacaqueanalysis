@@ -1,5 +1,3 @@
-"# ada-2022-project-appliedmacaqueanalysis" 
-
 # Hoppy Christmas! A guide to christmas beers
 
 ## Abstract:
@@ -17,10 +15,10 @@ Being a small brewery, we would like to conduct a study on beer trendiness to op
 
 ### Preprocessing
 
-The data are already quite clean for this dataset: a large portion of data wrangling was already done for us. 
+The data are already quite clean for this dataset: a large portion of data wrangling was already done for us. Also, we do not consider the _./ratings.txt.gz_ files in the BeerAdvocate and RateBeer folders, as they are an unclean version of the _./reviews.txt.gz_ files. 
 Firstly, some beers do not provide enough data to be taken into account in our processing. Thus, we filter for beers that have been reviewed for more than two years, and which already have enough feedbacks. The threshold for that is decided based on the distribution of the number of reviews per beer.
 
-To ease the access and the opening speed, we store those data as a pickle file (_.pkl_). We do not consider the _./ratings.txt.gz_ files in the BeerAdvocate and RateBeer folders, as they are an unclean version of the _./reviews.txt.gz_ files. 
+To ease the access and the opening speed, we store those data as a pickle file (_.pkl_).
 
 ### Feature extraction
 
@@ -33,7 +31,7 @@ We can typically see how certain events influence a beeer's popularity (St. Patr
 </p>
 
 
-To further study those particular beers, we will take a look at the ratings to analyze how appreciated those popular beers are, along with the feeling experienced by the reviewers, and perform a comparison between the metrics of the seasonal beers and the non-seasonal ones.
+To further study those particular beers, we will take a look at the average grades to analyze how appreciated those popular beers are, along with the feeling experienced by the reviewers, and perform a comparison between the metrics of the seasonal beers and the non-seasonal ones.
 
 
 ### Lexical differences between all beers and winter related beers
@@ -48,6 +46,8 @@ Based on the lexic used to review winter beers, we would like to extract the key
 
 ## Tasks repartition
 
+Data story
+
 | Names                | Tasks |
 |-----------------|-------|
 | Louis Gounot    | Data story, Features extraction |
@@ -57,12 +57,12 @@ Based on the lexic used to review winter beers, we would like to extract the key
 
 ## Proposed timeline
 
-19.11 --> 02.12 :
+19.11 &#8594; 02.12 :
  * Preprocessing
  * Seasonal trend analysis
 
 
-02.12 --> 16.12 : 
+02.12 &#8594; 16.12 : 
  * Sentiment analysis
  * Start of data story:
    * website creation
@@ -70,20 +70,20 @@ Based on the lexic used to review winter beers, we would like to extract the key
  * Features extraction
 
 
-16.12 --> 21.12 :
+16.12 &#8594; 21.12 :
 
   * Data visualization
   * Data story : 
      * write story and connect dots
      * embed graphics
 
-21.12 --> 23.12 - 23h50 :
+21.12 &#8594; 23.12 - 23h50 :
 
    * Draw conclusions
    * Clean up code
 
-23.12 - 23h51 --> 23.12 - 23h59 :
+23.12 - 23h51 &#8594; 23.12 - 23h59 :
 
-  * git commit -m "final push"
+  * git commit
   * git push
   * Taste beers
