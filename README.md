@@ -41,21 +41,30 @@ From these seasonnal beer types, we can find the most used words to positively d
 19.11 --> 02.12 :
  * Preprocessing
  * Seasonal trend analysis
+
+
 02.12 --> 16.12 : 
  * Sentiment analysis
  * Start of data story:
    * website creation
    * global structure
  * Features extraction
+
+
 16.12 --> 21.12 :
+
   * Data visualization
   * Data story : 
      * write story and connect dots
      * embed graphics
+
 21.12 --> 23.12 - 23h50 :
+
    * Draw conclusions
    * Clean up code
+
 23.12 - 23h51 --> 23.12 - 23h59 :
+
   * git commit -m "final push"
   * git push
   * Taste beers
