@@ -26,7 +26,13 @@ To ease the access and the opening speed, we store those data as a pickle file (
 
 Then, by analysing review density of different beers types (e.g. IPA, American Pale Wheat Ale) as a proxy for beer popularity, we select a subset of beers that show a strong seasonnal trend as shown [here](https://towardsdatascience.com/finding-seasonal-trends-in-time-series-data-with-python-ce10c37aa861), in particular for the winter months.
 
-To further study those particular beers, we will take a look at tje ratings to analyze how appreciated those popular beers are, along with the feeling experienced by the reviewers, and perform a comparison between the metrics of the seasonal beers and the non-seasonal ones.
+We can typically see how certain events influence a beeer's popularity (St. Patrick's day for example) :
+<p align="middle">
+ <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/irish_stout_popularity.jpeg" width="400"/>
+</p>
+
+
+To further study those particular beers, we will take a look at the ratings to analyze how appreciated those popular beers are, along with the feeling experienced by the reviewers, and perform a comparison between the metrics of the seasonal beers and the non-seasonal ones.
 
 ### insert graph Hogo here
 
