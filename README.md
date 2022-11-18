@@ -27,24 +27,16 @@ This can be verified by adding up the reviews done on each day of the year over 
 From these seasonnal beer types, we can find the most used words to positively describe these beers. By doing the same for other beers,  we can isolate words that are specifically positive for winter/christmas beers. This dictionnairy would allow to identify other winter beers.  
 
 
-
-
-## External libraries
-- pandas, numpy, datetime
-- nltk, langdetect
-- matplotlib, seaborn?
-- worldcloud
-- gegex
-
-
-## Proposed Timeline and
-Tasks: data story, data visu, preprocessing, readme, seasonnal trend analysis, PCA on rating categories(appearance, aroma, palate, taste, abv) and clustering, characteristic word extraction NLP à l'aide Baudou ?
-
+## Tasks repartition
 
 | Names                | Tasks |
 |-----------------|-------|
-| Louis Gounot    | T.B.D |
-| Hugo Delesalle  | T.B.D |
-| Baudouin Bosc   | T.B.D |
-| Michael Richter | T.B.D |
+| Louis Gounot    | Data story, Features extraction |
+| Hugo Delesalle  | Preprocessing, Data visualization |
+| Baudouin Bosc   | Sentiment analysis, Data visualization|
+| Michael Richter | Seasonal trend analysis, Data story |
+
+## Proposed timeline
+
+
 
