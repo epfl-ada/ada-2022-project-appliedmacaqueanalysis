@@ -8,10 +8,10 @@ Being a small brewery, we would like to conduct a study on beer trendiness to op
 ## Reasearch questions:
 * Can we find successful beers during a certain season?
 * If yes, what makes a trendy christmas beer? 
-  * What characterise them ? Is there a specific flavor which is more appreciated in winter, or does it even have influence for that regard ?
+  * What characterises them ? Is there a specific flavor which is more appreciated in winter, or does it even have influence in that regard ?
   * Can we find key words, describing what would make a beer successful on winter days e.g. the feeling of warmness it provides ?
   * Are there confounding factors ?
-* Can we extend the analysis we made for the Christmas beers to the summer ones ?
+* Can we extend the analysis we made for the Christmas beers to the other ones ?
  
 ## Methods
 The data was collected and cleaned by the maker of this dataset, a large portion of data wrangling was already done for us. 
