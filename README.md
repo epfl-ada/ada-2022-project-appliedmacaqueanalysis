@@ -23,7 +23,11 @@ If a word analysis is conducted, we may filter the reviews' text to only get eng
 ### insert graph Hogo here
 This can be verified by adding up the reviews done on each day of the year over the whole time the data was collected to verify if there is indeed a peak of popularity at a certain season:
 ### insert graph Michou here
-![alt text](https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/wordmap.jpeg)
+
+
+            |  
+:-------------------------:|:-------------------------:
+![](https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/wordmap.jpeg)  |  ![](https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/winter_wordmap.jpeg)
 From these seasonnal beer types, we can find the most used words to positively describe these beers. By doing the same for other beers,  we can isolate words that are specifically positive for winter/christmas beers. This dictionnairy would allow to identify other winter beers.  
 
 
