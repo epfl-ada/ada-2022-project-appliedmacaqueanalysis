@@ -25,9 +25,9 @@ This can be verified by adding up the reviews done on each day of the year over 
 ### insert graph Michou here
 
 
- <p float="left">
-  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/wordmap.jpeg" width="100" />
-  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/wordmap.jpeg" width="100" /> 
+ <p align="middle">
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/wordmap.jpeg" width="300" />
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/wordmap.jpeg" width="300" /> 
 </p>
 From these seasonnal beer types, we can find the most used words to positively describe these beers. By doing the same for other beers,  we can isolate words that are specifically positive for winter/christmas beers. This dictionnairy would allow to identify other winter beers.  
 
