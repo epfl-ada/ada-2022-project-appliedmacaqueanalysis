@@ -5,7 +5,7 @@
 ## Abstract:
 Being a small brewery, we would like to conduct a study on beer trendiness to optimize our production with respect to time. We analyse seasonal trends in beer consumption to know when to release a new one. On top of this we analyse the evolution over time of multiple beer's consumption in order to have the minimum amount of remaining storage after sales. Our goals would be to understand what makes a beer trendy and be able to predict how the beer’s success evolves throughout the years. With this, we could know how much beer to produce at a certain time. In particular, we would like to produce a holiday season beer. To do so we will focus our analyses on the winter season. We would like to know what the typical characteristics of a Christmas beer are and how much people will consume it relatively to other beers.
 
-## Reasearch questions:
+## Research questions:
 * Can we find successful beers during a certain season?
 * If yes, what makes a trendy christmas beer? 
   * What characterises them ? Is there a specific flavor which is more appreciated in winter, or does it even have influence in that regard ?
