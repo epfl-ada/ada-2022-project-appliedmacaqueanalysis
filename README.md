@@ -1,15 +1,17 @@
 # Hoppy Christmas! A guide to christmas beers
 
+## Data story available [here](https://mrichter-git.github.io/HoppyChristmas/) !
+
 ## Abstract:
 Being a small brewery, we would like to conduct a study on beer trendiness to optimize our production with respect to time. We analyse seasonal trends in beer consumption to know when to release a new one. On top of this we analyse the evolution over time of multiple beer's consumption in order to have the minimum amount of remaining storage after sales. Our goals would be to understand what makes a beer trendy and be able to predict how the beer’s success evolves throughout the year. With this, we could know how much beer to produce at a certain time. In particular, we would like to produce a holiday season beer. To do so we will focus our analyses on the winter season. We would like to know what the typical characteristics of a Christmas beer are and how much people will consume it relatively to other beers.
 
 ## Research questions:
-* Can we find successful beers during a certain season?
-* If yes, what makes a trendy christmas beer? 
+* Is there seasonality in beer' success ?
+* If yes, what makes a beer trendy, in particular during Christmas time? 
   * What characterises them ? Is there a specific flavor which is more appreciated in winter, or does it even have influence in that regard ?
   * Can we find key words, describing what would make a beer successful on winter days e.g. the feeling of warmness it provides ?
   * Are there confounding factors ?
-* Can we extend the analysis we made for the Christmas beers to the other ones ?
+* Can we extend the analysis we made for the Christmas beers to the other ones, for example summer beers ?
  
 ## Methods
 
@@ -30,10 +32,6 @@ We can typically see how certain events influence a beeer's popularity (St. Patr
  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/winter_warmer_popularity.jpeg" width="300"/>
 </p>
 
-
-To further study those particular beers, we will take a look at the average grades to analyze how appreciated those popular beers are, along with the feeling experienced by the reviewers, and perform a comparison between the metrics of the seasonal beers and the non-seasonal ones.
-
-
 ### Lexical differences between all beers and winter related beers
 
  <p align="middle">
@@ -42,6 +40,12 @@ To further study those particular beers, we will take a look at the average grad
 </p>
 
 Based on the lexic used to review winter beers, we would like to extract the key features and words describing what makes a beer a successful one during winter period. Should any Natural Language Processing be required, we will conduct a sentiment analysis on these reviews using the _NLTK_ library. This will provide us with the needed tools to investigate how much the user appreciated it.
+
+We conducted a sentiment and an aspect-based analysis on the beers trendy during December and the beers trendy during July to check if we could identify lexical fields for the most talked about aspects of those beers.
+
+Based on the reviews of those Christmas and Summer beers, we used the _Spacy_ library to select all the reviews which had a positive bias toward the analyzed beer, and retained the group of words characterizing it the best. Often, it corresponds to pairs like (_name_,_adjectives_) such as (head, white) (the head of a beer refering to the foam above). This analysis yields a list of aspects such as the carbonation, the lacing, the color, etc.
+
+To classify the aspects' meaningfulness, we computed their popularity, i.e the frequency at wich they appear in the reviews. We assumed that the more a word was present, the likelier it was to be significant for the beer. Thus, we kept the most used aspects and adjectives to characterize the beers we were studying.
 
 
 ## Tasks repartition
