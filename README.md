@@ -32,6 +32,8 @@ We can typically see how certain events influence a beeer's popularity (St. Patr
  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/winter_warmer_popularity.jpeg" width="300"/>
 </p>
 
+To select the seasonal beers, we give the seasonality a rating. Also, by decomposing the review count per day, modulo the years, we can isolate the trend of a particular beer. Because some beers do not have enough reviews, or have not been reviewed for long enough, some have to be filtered. We considered that we needed at least two years worth of reviews to apply our algorithms. Finally, we keep only the beers, or types of beer, having a strong enough seasonality coefficient in the month of interest.
+
 ### Lexical differences between all beers and winter related beers
 
  <p align="middle">
