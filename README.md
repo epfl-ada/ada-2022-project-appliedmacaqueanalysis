@@ -48,9 +48,9 @@ To classify the aspects' meaningfulness, we computed their popularity, i.e the f
 We obtained wordclouds like this :
 
  <p align="middle">
-  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/all_beers.png" width="200" />
-  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/xmas_beers.png" width="200" />
-  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/summer_beers.png" width="200" />
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/all_beers.png" width="200" height="400" title="Random beers">
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/xmas_beers.png" width="200" height="400" title="Christmas beers">
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/summer_beers.png" width="200" height="400" title="Summer beers">
 </p>
 
 ## Contribution of the group members
