@@ -39,25 +39,23 @@ We can typically see how certain events influence a beeer's popularity (St. Patr
   <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/winter_wordmap.jpeg" width="300" /> 
 </p>
 
-Based on the lexic used to review winter beers, we would like to extract the key features and words describing what makes a beer a successful one during winter period. Should any Natural Language Processing be required, we will conduct a sentiment analysis on these reviews using the _NLTK_ library. This will provide us with the needed tools to investigate how much the user appreciated it.
+Based on the lexic used to review winter beers, we wanted like to extract the key features and words describing what makes a beer a successful one during winter period. We conducted a sentiment and an aspect-based analysis on the beers trendy during December and the beers trendy during July to check if we could identify lexical fields for the most talked about aspects of those beers.
 
-We conducted a sentiment and an aspect-based analysis on the beers trendy during December and the beers trendy during July to check if we could identify lexical fields for the most talked about aspects of those beers.
-
-Based on the reviews of those Christmas and Summer beers, we used the _Spacy_ library to select all the reviews which had a positive bias toward the analyzed beer, and retained the group of words characterizing it the best. Often, it corresponds to pairs like (_name_,_adjectives_) such as (head, white) (the head of a beer refering to the foam above). This analysis yields a list of aspects such as the carbonation, the lacing, the color, etc.
+Based on those Christmas and Summer beers, we used the _Spacy_ library to select all the reviews which had a positive bias toward the analyzed beer, and retained the group of words characterizing it the best. Often, it corresponds to pairs like (_name_,_adjectives_) such as (head, white) (the head of a beer refering to the foam above). This analysis yields a list of aspects such as the carbonation, the lacing, the color, etc.
 
 To classify the aspects' meaningfulness, we computed their popularity, i.e the frequency at wich they appear in the reviews. We assumed that the more a word was present, the likelier it was to be significant for the beer. Thus, we kept the most used aspects and adjectives to characterize the beers we were studying.
 
 
-## Tasks repartition
+## Contribution of the group members
 
 Data story
 
 | Names                | Tasks |
 |-----------------|-------|
-| Louis Gounot    | Data story, Features extraction |
-| Hugo Delesalle  | Preprocessing, Data visualization |
-| Baudouin Bosc   | Sentiment analysis, Data visualization|
-| Michael Richter | Seasonal trend analysis, Data story |
+| Louis Gounot    | Thrilling data story, Clean-ass plots, tasting |
+| Hugo Delesalle  | Preprocessing, Best seasonality study ever, tasting |
+| Baudouin Bosc   | Sentiment analysis, Data visualization, tasting |
+| Michael Richter | Thrilling data story, Amazing website, tasting |
 
 ## Proposed timeline
 
@@ -91,3 +89,5 @@ Data story
   * git commit
   * git push
   * Taste beers
+
+The timeline proposed in Milestone 2 was overall respected during Milestone 3.
