@@ -45,13 +45,20 @@ Based on those Christmas and Summer beers, we used the _Spacy_ library to select
 
 To classify the aspects' meaningfulness, we computed their popularity, i.e the frequency at wich they appear in the reviews. We assumed that the more a word was present, the likelier it was to be significant for the beer. Thus, we kept the most used aspects and adjectives to characterize the beers we were studying.
 
+We obtained wordclouds like this :
+
+ <p align="middle">
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/all_beers.png" width="200" height="400" title="Random beers">
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/xmas_beers.png" width="200" height="400" title="Christmas beers">
+  <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/summer_beers.png" width="200" height="400" title="Summer beers">
+</p>
 
 ## Contribution of the group members
 
 
 | Names                | Tasks |
 |-----------------|-------|
-| Louis Gounot    | Thrilling data story, Clean-ass plots, tasting |
+| Louis Gounot    | Thrilling data story, Incredible plots, tasting |
 | Hugo Delesalle  | Preprocessing, Best seasonality study ever, tasting |
 | Baudouin Bosc   | Sentiment analysis, Data visualization, tasting |
 | Michael Richter | Thrilling data story, Amazing website, tasting |
@@ -59,7 +66,7 @@ To classify the aspects' meaningfulness, we computed their popularity, i.e the f
 ## Proposed timeline
 
 19.11 &#8594; 02.12 :
- * Preprocessing
+ * Preprocessing:
  * Seasonal trend analysis
 
 
