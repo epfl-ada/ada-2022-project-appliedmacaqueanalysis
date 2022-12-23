@@ -41,7 +41,7 @@ To select the seasonal beers, we give the seasonality a rating. Also, by decompo
   <img src="https://github.com/epfl-ada/ada-2022-project-appliedmacaqueanalysis/blob/main/images/winter_wordmap.jpeg" width="300" /> 
 </p>
 
-Based on the lexic used to review winter beers, we wanted like to extract the key features and words describing what makes a beer a successful one during winter period. We conducted a sentiment and an aspect-based analysis on the beers trendy during December and the beers trendy during July to check if we could identify lexical fields for the most talked about aspects of those beers.
+The wordcloud on the right corresponds to the lexical fields of the beers whose review contains "winter". However a review containing the w-word does not guarantee that the beer in question is a winter beer, nor does it says wether it is appreciated or not. Therefore, to go deeper, we conducted a sentiment and an aspect-based analysis on the reviews of the beers trendy during December, and the ones trendy during July to check if we could identify lexical fields for the most talked about aspects of those beers.
 
 Based on those Christmas and Summer beers, we used the _Spacy_ library to select all the reviews which had a positive bias toward the analyzed beer, and retained the group of words characterizing it the best. Often, it corresponds to pairs like (_name_,_adjectives_) such as (head, white) (the head of a beer refering to the foam above). This analysis yields a list of aspects such as the carbonation, the lacing, the color, etc.
 
