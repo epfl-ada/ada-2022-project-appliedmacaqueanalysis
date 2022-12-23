@@ -1,4 +1,4 @@
-# Hoppy Christmas! A guide to christmas beers
+# Hoppy Christmas and Happy brew year ! A guide to christmas beers
 
 ## Data story available [here](https://mrichter-git.github.io/HoppyChristmas/) !
 
@@ -48,7 +48,6 @@ To classify the aspects' meaningfulness, we computed their popularity, i.e the f
 
 ## Contribution of the group members
 
-Data story
 
 | Names                | Tasks |
 |-----------------|-------|
